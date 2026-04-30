@@ -1,0 +1,46 @@
+# PlatformIO
+firmware/.pio/
+firmware/.pioenvs/
+firmware/.piolibdeps/
+
+# Environment & secrets — never commit these
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Supabase local keys (use environment variables instead)
+supabase/.branches/
+supabase/.temp/
+
+# Next.js / web dashboard
+web/node_modules/
+web/.next/
+web/out/
+web/.pnp
+web/.pnp.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# KiCad backups
+*.bak
+*-backups/
+_autosave-*
+
+# Fusion 360 / FreeCAD
+*.lock
